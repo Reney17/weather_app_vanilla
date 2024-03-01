@@ -1,5 +1,5 @@
 body {
-  background-color: #cadefc;
+  background-image: url(background.avif);
   font-family: "Roboto", sans-serif;
 }
 
@@ -12,7 +12,11 @@ h1 {
 }
 
 .app {
-  background-color: white;
+  background-color: linear-gradient(
+    109.5deg,
+    rgb(13, 11, 136) 9.4%,
+    rgb(86, 255, 248) 78.4%
+  );
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
