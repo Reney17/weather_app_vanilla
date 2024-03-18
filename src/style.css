@@ -1,5 +1,5 @@
 body {
-  background: url(../images/background.avif);
+  background: url(../images/weather2.avif);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -16,11 +16,10 @@ h1 {
 }
 
 .app {
-  background-color: linear-gradient(
-    109.5deg,
-    rgb(13, 11, 136) 9.4%,
-    rgb(86, 255, 248) 78.4%
-  );
+  background-color: rgba(255, 255, 255, 0.8);
+
+  text-align: center;
+
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
